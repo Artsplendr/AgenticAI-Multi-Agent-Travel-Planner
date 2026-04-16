@@ -113,3 +113,8 @@ cp .env.example .env
 ## Demo Prompt
 
 `Plan a 5-day trip to Barcelona with a medium budget and a mix of relaxation and adventure.`
+
+## Use Case 
+<p align="center">
+  <img src="assets/image.png" alt="Autonomous Travel Planner UI" width="900" />
+</p>
