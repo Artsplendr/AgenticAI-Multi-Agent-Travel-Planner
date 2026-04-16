@@ -29,18 +29,6 @@ AG --> R["Refinement Loop - optional"]
 R --> P["Final Travel Plan"]
 ```
 
-Fallback (for viewers that do not render Mermaid):
-
-```text
-User Input -> User Intent Agent
-User Intent Agent -> Flight Agent
-User Intent Agent -> Hotel Agent
-User Intent Agent -> Experience Agent
-User Intent Agent -> Budget Agent
-Flight/Hotel/Experience/Budget -> Aggregator Agent
-Aggregator Agent -> Refinement Loop (optional) -> Final Travel Plan
-```
-
 
 ## Implemented Agents
 
