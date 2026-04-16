@@ -11,6 +11,8 @@ Built with:
 	•	LLMs (OpenAI / compatible) → reasoning & generation
 	•	Tool integrations → flight, hotel, and activity search (mock or real APIs)
 
+> **Demo note:** For demo purposes, flight and hotel search currently use local mock logic/data (no live external APIs). Real provider APIs can be added later by replacing the corresponding tool modules.
+
 ## Architecture
 The system follows a parallel + aggregation + refinement loop pattern:
 
