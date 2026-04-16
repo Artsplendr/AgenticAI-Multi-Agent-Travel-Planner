@@ -14,7 +14,7 @@ Built with:
 ## Architecture
 The system follows a parallel + aggregation + refinement loop pattern:
 
-```mermaid
+``mermaid
 flowchart TD
     A[User Input] --> B[User Intent Agent]
 
