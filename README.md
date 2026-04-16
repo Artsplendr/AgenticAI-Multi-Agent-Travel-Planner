@@ -32,8 +32,6 @@ Flight Agent   Hotel Agent   Experience Agent   Budget Agent
 
 ```
 
-All agents live in `agents/`.
-
 ## Implemented Agents
 
 - `UserIntentAgent`
@@ -86,20 +84,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
-```
-
-## Export Graph Diagram
-
-Export Mermaid diagram for docs:
-
-```bash
-python -m graph.diagram --out-mermaid docs/graph/workflow.mmd
-```
-
-Optional PNG render:
-
-```bash
-python -m graph.diagram --out-mermaid docs/graph/workflow.mmd --out-png docs/graph/workflow.png
 ```
 
 ## Environment
