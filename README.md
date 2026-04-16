@@ -32,41 +32,42 @@ R --> P["Final Travel Plan"]
 ## Implemented Agents
 
 - `UserIntentAgent`
-	•	Extracts structured preferences from user input
-	•	Identifies:
-	•	Destination
-	•	Dates
-	•	Budget
-	•	Travel style (luxury, adventure, minimal, etc.)
+  - Extracts structured preferences from user input
+  - Identifies:
+    - Destination
+    - Dates
+    - Budget
+    - Travel style (luxury, adventure, minimal, etc.)
 
 - `FlightAgent`
-	•	Finds optimal flight options
-	•	Can integrate with:
-	•	Flight APIs (e.g. Amadeus, Skyscanner)
-	•	Mock datasets for offline/demo mode
+  - Finds optimal flight options
+  - Can integrate with:
+    - Flight APIs (e.g. Amadeus, Skyscanner)
+    - Mock datasets for offline/demo mode
+
 - `HotelAgent`
-	•	Suggests accommodations based on:
-	•	Budget
-	•	Location preferences
-	•	Travel style
+  - Suggests accommodations based on:
+    - Budget
+    - Location preferences
+    - Travel style
 
 - `ExperienceAgent`
-	•	Recommends:
-	•	Activities
-	•	Local experiences
-	•	Attractions
+  - Recommends:
+    - Activities
+    - Local experiences
+    - Attractions
 
 - `BudgetOptimizerAgent`
-	•	Ensures the trip stays within budget
-	•	Adjusts:
-	•	Hotel class
-	•	Activity selection
-	•	Flight options
-  
+  - Ensures the trip stays within budget
+  - Adjusts:
+    - Hotel class
+    - Activity selection
+    - Flight options
+
 - `AggregatorAgent`
-	•	Combines outputs from all agents
-	•	Resolves conflicts
-	•	Produces a cohesive itinerary
+  - Combines outputs from all agents
+  - Resolves conflicts
+  - Produces a cohesive itinerary
 
 ### Agent Design Split
 
