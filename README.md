@@ -30,6 +30,7 @@ flowchart TD
 
     AG --> R[Refinement Loop (optional)]
     R --> P[Final Travel Plan]
+	
 ```
 
 ## Implemented Agents
