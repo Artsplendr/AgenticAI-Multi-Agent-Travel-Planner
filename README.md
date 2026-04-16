@@ -27,8 +27,26 @@ E --> AG
 BU --> AG
 AG --> R["Refinement Loop - optional"]
 R --> P["Final Travel Plan"]
+<<<<<<< HEAD
 ```
 
+=======
+```
+
+Fallback (for viewers that do not render Mermaid):
+
+```text
+User Input -> User Intent Agent
+User Intent Agent -> Flight Agent
+User Intent Agent -> Hotel Agent
+User Intent Agent -> Experience Agent
+User Intent Agent -> Budget Agent
+Flight/Hotel/Experience/Budget -> Aggregator Agent
+Aggregator Agent -> Refinement Loop (optional) -> Final Travel Plan
+```
+
+
+>>>>>>> 055dfc8 (Add assets folder with image)
 ## Implemented Agents
 
 - `UserIntentAgent`
