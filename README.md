@@ -27,10 +27,6 @@ E --> AG
 BU --> AG
 AG --> R["Refinement Loop - optional"]
 R --> P["Final Travel Plan"]
-<<<<<<< HEAD
-```
-
-=======
 ```
 
 Fallback (for viewers that do not render Mermaid):
@@ -46,7 +42,6 @@ Aggregator Agent -> Refinement Loop (optional) -> Final Travel Plan
 ```
 
 
->>>>>>> 055dfc8 (Add assets folder with image)
 ## Implemented Agents
 
 - `UserIntentAgent`
