@@ -15,21 +15,21 @@ Built with:
 The system follows a parallel + aggregation + refinement loop pattern:
 
 ```mermaid
-User Input
-   ↓
-User Intent Agent
-   ↓
- ┌───────────────┬───────────────┬───────────────┬────────────────┐
- ↓               ↓               ↓               ↓
-Flight Agent   Hotel Agent   Experience Agent   Budget Agent
- └───────────────┴───────────────┴───────────────┴────────────────┘
-                         ↓
-                  Aggregator Agent
-                         ↓
-                 Refinement Loop (optional)
-                         ↓
-                  Final Travel Plan
+flowchart TD
+    A[User Input] --> B[User Intent Agent]
 
+    B --> F[Flight Agent]
+    B --> H[Hotel Agent]
+    B --> E[Experience Agent]
+    B --> BU[Budget Agent]
+
+    F --> AG[Aggregator Agent]
+    H --> AG
+    E --> AG
+    BU --> AG
+
+    AG --> R[Refinement Loop (optional)]
+    R --> P[Final Travel Plan]
 ```
 
 ## Implemented Agents
